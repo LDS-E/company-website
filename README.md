@@ -20,7 +20,7 @@ Next.js Company Website is a modern institutional website for companies and grou
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/nextjs-company-website.git
+   git clone https://github.com/LDS-E/company-website.git
    ```
 2. Install dependencies:
    ```bash
