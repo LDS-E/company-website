@@ -1,6 +1,6 @@
 import Hero from "./components/Hero";
 import PeopleCards from "./components/PeopleCards";
-import LastArticles from "./components/LastArticles";
+import LastArticles from "./components/lastArticles";
 import Content from "./components/Content";
 import Slideshow from "./components/Slideshow";
 import QuoteSlideshow from "./components/QuoteSlideshow";

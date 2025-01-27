@@ -47,7 +47,6 @@ const QuoteSlideshow = () => {
           </motion.figure>
         </AnimatePresence>
 
-        {/* Botões de navegação */}
         <button
           onClick={prevQuote}
           className="absolute left-0 top-1/2 transform -translate-y-1/2 p-2 text-gray-600 hover:text-gray-800"

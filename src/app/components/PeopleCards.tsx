@@ -29,13 +29,13 @@ const PeopleCards = () => {
   ];
 
   return (
-    <div className="people-cards grid grid-cols-1 md:grid-cols-4 gap-8 mt-10">
+    <div className=" grid grid-cols-1 md:grid-cols-4 gap-8 mt-10">
       {people.map((person, index) => (
         <div
           key={index}
-          className="people-cards__card bg-white p-6 rounded-md shadow-lg transition-all hover:scale-105 hover:outline hover:outline-[#63c6ae]"
+          className=" bg-white p-6 rounded-md shadow-lg transition-all hover:scale-105 hover:outline hover:outline-[#63c6ae]"
         >
-          <div className="people-cards__avatar overflow-hidden rounded-full mx-auto w-20 h-20">
+          <div className=" overflow-hidden rounded-full mx-auto w-20 h-20">
             <Image
               src={person.src}
               alt={person.alt}
@@ -44,13 +44,11 @@ const PeopleCards = () => {
               className="w-full h-full object-cover transform transition-transform duration-300 hover:translate-y-[-50%]"
             />
           </div>
-          <div className="people-cards__content text-center pt-10">
-            <h3 className="people-cards__title text-[#737c85] text-xl font-normal">
+          <div className=" text-center pt-10">
+            <h3 className=" text-[#737c85] text-xl font-normal">
               {person.name}
             </h3>
-            <p className="people-cards__text text-[#929da5] text-sm">
-              {person.job}
-            </p>
+            <p className=" text-[#929da5] text-sm">{person.job}</p>
           </div>
         </div>
       ))}
