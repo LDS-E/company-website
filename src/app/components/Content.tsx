@@ -27,7 +27,6 @@ const Content = () => {
           </div>
         </article>
 
-        {/* Segundo artigo */}
         <article>
           <h3 className="text-2xl font-bold text-gray-800 mb-4">
             Lorem ipsum dolor sit amet consectetur adipiscing elit.
