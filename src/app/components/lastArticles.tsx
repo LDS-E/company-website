@@ -23,7 +23,7 @@ const LastArticles = () => {
         <h2 className="last-articles__title bg-[#63c6ae] py-3 text-white text-xl font-semibold uppercase mb-6">
           Last Articles
         </h2>
-        <div className="last-articles__thumbs grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div className="Last-articles__thumbs grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {/* Mapeando os artigos */}
           {articles.map((article, index) => (
             <div

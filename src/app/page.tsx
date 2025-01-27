@@ -1,6 +1,9 @@
 import Hero from "./components/Hero";
 import PeopleCards from "./components/PeopleCards";
-import LastArticles from "./components/lastArticles";
+import LastArticles from "./components/LastArticles";
+import Content from "./components/Content";
+import Slideshow from "./components/Slideshow";
+import QuoteSlideshow from "./components/QuoteSlideshow";
 
 const Page = () => (
   <div>
@@ -13,6 +16,12 @@ const Page = () => (
     <section className="last-articles">
       <LastArticles />
     </section>
+
+    <Content />
+
+    <Slideshow />
+
+    <QuoteSlideshow />
   </div>
 );
 
