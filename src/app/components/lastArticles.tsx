@@ -1,4 +1,3 @@
-// LastArticles.tsx
 import Image from "next/image";
 
 const LastArticles = () => {
@@ -18,19 +17,16 @@ const LastArticles = () => {
   ];
 
   return (
-    <section className="last-articles bg-[#f8f9f9] py-16">
+    <section className=" bg-[#f8f9f9] py-16">
       <div className="container mx-auto">
-        <h2 className="last-articles__title bg-[#63c6ae] py-3 text-white text-xl font-semibold uppercase mb-6">
+        <h2 className=" bg-[#63c6ae] py-3 text-white text-xl font-semibold uppercase mb-6">
           Last Articles
         </h2>
-        <div className="Last-articles__thumbs grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {/* Mapeando os artigos */}
           {articles.map((article, index) => (
-            <div
-              key={index}
-              className="last-articles__thumb bg-white rounded-md shadow-lg p-5"
-            >
-              <a href="#" className="block">
+            <div key={index} className=" bg-white rounded-md shadow-lg p-5">
+              <a href="#">
                 <Image
                   src={article.src}
                   alt={article.alt}

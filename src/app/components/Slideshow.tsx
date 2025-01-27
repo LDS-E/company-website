@@ -24,7 +24,6 @@ const Slideshow = () => {
     );
   };
 
-  // Auto-play (opcional)
   useEffect(() => {
     const interval = setInterval(nextSlide, 5000);
     return () => clearInterval(interval);
@@ -47,7 +46,6 @@ const Slideshow = () => {
         </AnimatePresence>
       </div>
 
-      {/* Botão Anterior */}
       <button
         onClick={prevSlide}
         className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-black/50 text-white p-2 rounded-full"
@@ -55,7 +53,6 @@ const Slideshow = () => {
         <ChevronLeft size={30} />
       </button>
 
-      {/* Botão Próximo */}
       <button
         onClick={nextSlide}
         className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-black/50 text-white p-2 rounded-full"
