@@ -2,7 +2,6 @@ const Content = () => {
   return (
     <section className="bg-gray-100 py-12">
       <div className="container mx-auto px-6 md:px-12">
-        {/* Primeiro artigo */}
         <article className="mb-10">
           <h3 className="text-2xl font-bold text-gray-800 mb-4">
             Lorem ipsum dolor sit amet consectetur adipiscing elit.
