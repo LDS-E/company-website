@@ -1,6 +1,6 @@
-# Next.js Company Website
+# Company Website
 
-Next.js Company Website is a modern institutional website for companies and groups, developed with **Next.js** and **TypeScript**, ensuring high performance, scalability, and an excellent user experience.
+Company Website is a modern institutional website for companies and groups, developed with **Next.js** and **TypeScript**, ensuring high performance, scalability, and an excellent user experience.
 
 ## 🚀 Features
 
